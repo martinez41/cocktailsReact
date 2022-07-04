@@ -1,5 +1,31 @@
 {
-	"users":[
-		
-	]
+  "users": [
+    {
+      "email": "tchuenkammartinez41@gmail.com",
+      "password": "$2a$10$nVgy/32lz2Iu4g7Klcyx0uAApdjKL2knpV1ZFJGQvy9haowC1XyZW",
+      "name": "Samuel",
+      "pseudo": "Sexmachin",
+      "age": "2022-07-24",
+      "sex": "H",
+      "id": 1
+    },
+    {
+      "email": "mimi@gmail.com",
+      "password": "$2a$10$Pg6wPgmK8k/0pBheJjqSp.gf8Iu7mAC4gHULFIWuO3XCjQvyUJy7G",
+      "name": "Martinez",
+      "pseudo": "tdms410",
+      "age": "2022-07-19",
+      "sex": "H",
+      "id": 2
+    },
+    {
+      "email": "martinomessage@yahoo.fr",
+      "password": "$2a$10$Ff6GTdUHBMuxLpIIgdBve.eSjC0dg0jJbt7scXaAW9Fd.YIagdjOG",
+      "name": "Vivi",
+      "pseudo": "Sex",
+      "age": "2022-07-04",
+      "sex": "F",
+      "id": 3
+    }
+  ]
 }
