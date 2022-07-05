@@ -1,0 +1,30 @@
+.title h2{
+    text-align: center;
+    color: blueviolet;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    border: solid 1px;
+    background-color: rgb(32, 178, 159);
+    width: 40%;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="radio"],
+form input[type="password"]{
+    
+}
+
+
+*{
+    font-family: sans-serif;
+
+    
+}

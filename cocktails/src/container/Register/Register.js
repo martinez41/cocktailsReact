@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { addNewUser } from './registerSlice';
-
-
+import "./Register.css"
 
 function Register() {
 
@@ -31,11 +30,16 @@ function Register() {
 
 	return (
 		<>
+		
 			<div className='row'>
-				<form onSubmit={(e) => handleSubmit(e)}>
+				<div classeName='col-6'>..</div>
+				<div classeName='col-6'>
 					<div className='title'>
 						<h2>Register</h2>
 					</div>
+				<form onSubmit={(e) => handleSubmit(e)}>
+					<div className='form'>
+
 					<div>
 						<input
 							type='file'
@@ -43,6 +47,7 @@ function Register() {
 							accept="image/png, image/jpeg"
 						/>
 					</div>
+
 					<div>
 						<label htmlFor='name'>Name</label>
 						<input
@@ -55,7 +60,7 @@ function Register() {
 						/>
 					</div>
 					<div>
-						<label htmlFor='pseudo'>Pseudo</label>
+						<label htmlFor='pseudo'>Prenom</label>
 						<input
 							type='text'
 							name='pseudo'
@@ -115,7 +120,7 @@ function Register() {
 						/>
 					</div>
 					<div>
-						<label htmlFor="confirm">Confirme</label>
+						<label htmlFor="confirm">Confirmer</label>
 						<input
 							type="password"
 							name="confirm"
@@ -128,10 +133,14 @@ function Register() {
 						<button>Register</button>
 					</div>
 						<Link to='login'>Login</Link>
+					</div>
 
 
 
 				</form>
+				</div>
+
+				
 			</div>
 		</>
 	)
