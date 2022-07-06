@@ -30,26 +30,16 @@ function Register() {
 
 	return (
 		<>
-		
-			<div className='row'>
-				<div classeName='col-6'>..</div>
-				<div classeName='col-6'>
-					<div className='title'>
-						<h2>Register</h2>
-					</div>
+		<div className=''>
+			<div className='d-flex justify-content-center mt-5'>
+				<div classeName='title'>
 				<form onSubmit={(e) => handleSubmit(e)}>
-					<div className='form'>
+					
+
+				<h2>Register</h2>
 
 					<div>
-						<input
-							type='file'
-							name='avatar'
-							accept="image/png, image/jpeg"
-						/>
-					</div>
-
-					<div>
-						<label htmlFor='name'>Name</label>
+						<label htmlFor='name'>Name :</label>
 						<input
 							type='text'
 							name='name'
@@ -60,7 +50,7 @@ function Register() {
 						/>
 					</div>
 					<div>
-						<label htmlFor='pseudo'>Prenom</label>
+						<label htmlFor='pseudo'>Prenom :</label>
 						<input
 							type='text'
 							name='pseudo'
@@ -71,8 +61,8 @@ function Register() {
 						/>
 					</div>
 					<div>
-						<label htmlFor='email'>Email</label>
-						<input
+						<label htmlFor='email'>Email :</label>
+						<input 
 							type='email'
 							name='email'
 							value={email}
@@ -84,7 +74,7 @@ function Register() {
 						/>
 					</div>
 					<div>
-						<label htmlFor='age'>Age</label>
+						<label htmlFor='age'>Age :</label>
 						<input
 							type='date'
 							name='age'
@@ -110,7 +100,7 @@ function Register() {
 						/>
 					</div>
 					<div>
-						<label htmlFor="password">Password (8 characters minimum):</label>
+						<label htmlFor="password">Password : (8 characters minimum):</label>
 						<input
 							type="password"
 							name="password"
@@ -120,7 +110,7 @@ function Register() {
 						/>
 					</div>
 					<div>
-						<label htmlFor="confirm">Confirmer</label>
+						<label htmlFor="confirm">Confirmer :</label>
 						<input
 							type="password"
 							name="confirm"
@@ -133,15 +123,15 @@ function Register() {
 						<button>Register</button>
 					</div>
 						<Link to='login'>Login</Link>
-					</div>
+					
 
-
-
-				</form>
-				</div>
 
 				
+				</form>
+				</div>
 			</div>
+
+		</div>
 		</>
 	)
 }
