@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { addNewUser } from './registerSlice';
 import "./Register.css"
+import Navbar from '../../components/Navbar';
 
 function Register() {
 
@@ -29,8 +30,11 @@ function Register() {
 	}
 
 	return (
+
+		
 		<>
 		<div className=''>
+			<Navbar/>
 			<div className='d-flex justify-content-center mt-5'>
 				<div classeName='title'>
 				<form onSubmit={(e) => handleSubmit(e)}>
